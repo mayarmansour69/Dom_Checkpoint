@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>shopping cart</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://fonts.google.com/specimen/Overpass+Mono?query=m" />
+
+</head>
+<body>
+  <div id="container">
+    <div class="box">
+      <h2>Hair nourisher</h2>
+      <img src="image1.jpg" alt="donut" width="155" height="175" />
+      <button type="button" class="btn btn-primary plus">+</button>
+      <input type="text" value="0" disabled class="quantity" />
+      <button type="button" class="btn btn-primary minus">-</button>
+      <button type="button" class="btn btn-danger delete-btn">DELETE</button>
+      <span class="price">$170</span>
+     
+    </div>
+
+    <div class="box">
+      <h2>Tint mouth</h2>
+      <img src="image2.jpg" alt="twin" width="155" height="175" />
+      <button type="button" class="btn btn-primary plus">+</button>
+      <input type="text" value="0" disabled class="quantity" />
+      <button type="button" class="btn btn-primary minus">-</button>
+      <button type="button" class="btn btn-danger delete-btn">DELETE</button>
+      <span class="price">$90</span>
+      
+    </div>
+    <div class="box">
+      <h2>Skin cream</h2>
+      <img src="image3.jpg" width="155" height="175" />
+      <button type="button" class="btn btn-primary plus">+</button>
+      <input type="text" value="0" disabled class="quantity" /> 
+      <button type="button" class="btn btn-primary minus">-</button>
+      <button type="button" class="btn btn-danger delete-btn">DELETE</button>
+      <span class="price">$150</span>
+      
+    </div>
+  </div>
+  <div>
+    <div id="total-cost"><h2>Total Cost:</h2></div>
+    <div id="cart-items"></div>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
